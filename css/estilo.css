@@ -1,16 +1,34 @@
-html,body{
+/*exportacion de letra*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* variables*/
+:root {
+--green-color:#7acc2d;
+--white-color:white;
+--black-color:black;
+
+/*espaciado*/
+--space:10px;
+/*tipografia*/
+--normal:12px;
+/*box-shadow*/
+--box-shadow: 0px 2px 1px var(--black-color);
+}
+/* fin de variables*/
+ 
+ 
+ html,body{
     padding: 0px;
     margin: 0em;
-    font-size: 12px;
-    font-family:Helvetica;
+    font-size: var(--normal);
+    font-family: 'Bebas Neue', cursive;
 }
 
 
 nav{
     display: flex;
-    background-color: #7acc2d;
-    padding: 10px;
-    color: white;
+    background-color:var(--green-color);
+    padding: var(--space);
+    color:var(--white-color);
     /* este sirve para serpara elemento el de tipo div a laos extremos del nav*/
     justify-content: space-between;
     /*organiza los elementos verticalmente al centro*/
@@ -27,13 +45,13 @@ nav li {
 }
 
 nav li a {
-    color:black;
+    color:var(--black-color);
     /* este sirve para quitar las decoreciones de las etiquetas A como es el subrayado*/
     text-decoration: none;
 }
 
 a:hover{ 
- color: white;
+ color: var(--white-color);
 }
 .main_section{
     padding: 15%;
@@ -51,31 +69,31 @@ a:hover{
     margin-top: 30px;
 }
 .product{
-    padding: 10px;
+    padding: var(--space);
     margin-top: -260px;
 }
 
 .product .content {
-    background-color: aliceblue;
+    background-color:var(--white-color);
     padding: 20px;
-    box-shadow: 0 0 2px black;
+    box-shadow: var(--box-shadow);
 }
 .img_content{
 text-align: center;
 }
 
 .main_button{
-    background-color: #7acc2d;
+    background-color:var(--green-color);
     width: 100%;
-    padding: 10px;
-    font-size: 12px;
-    color: white;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
     border: none;
     
 }
 
 .main_button:hover{
     background-color: #5e9e22 ;
-    box-shadow: 4px 4px 10px black;
+    box-shadow: 4px 4px 10px var(--black-color);
     cursor: pointer;
 }
