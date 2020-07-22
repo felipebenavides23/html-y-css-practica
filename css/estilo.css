@@ -1,0 +1,81 @@
+html,body{
+    padding: 0px;
+    margin: 0em;
+    font-size: 12px;
+    font-family:Helvetica;
+}
+
+
+nav{
+    display: flex;
+    background-color: #7acc2d;
+    padding: 10px;
+    color: white;
+    /* este sirve para serpara elemento el de tipo div a laos extremos del nav*/
+    justify-content: space-between;
+    /*organiza los elementos verticalmente al centro*/
+    align-items: center;
+}
+nav ul{
+    display: flex;
+  
+}
+
+nav li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a {
+    color:black;
+    /* este sirve para quitar las decoreciones de las etiquetas A como es el subrayado*/
+    text-decoration: none;
+}
+
+a:hover{ 
+ color: white;
+}
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+.products{
+    background-image: url(../imagenes/curve.png);
+    max-height: 80px;
+    /* este sirve para decirle a la imagen que ocupe el tamaño del div*/
+    background-size: cover;
+    /* este sirve para posicionar el fondo*/
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+    margin-top: 30px;
+}
+.product{
+    padding: 10px;
+    margin-top: -260px;
+}
+
+.product .content {
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 0 0 2px black;
+}
+.img_content{
+text-align: center;
+}
+
+.main_button{
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    
+}
+
+.main_button:hover{
+    background-color: #5e9e22 ;
+    box-shadow: 4px 4px 10px black;
+    cursor: pointer;
+}
