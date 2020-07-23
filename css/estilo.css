@@ -59,7 +59,7 @@ a:hover{
 }
 .products{
     background-image: url(../imagenes/curve.png);
-    max-height: 80px;
+    height: 80px;
     /* este sirve para decirle a la imagen que ocupe el tamaño del div*/
     background-size: cover;
     /* este sirve para posicionar el fondo*/
@@ -129,13 +129,16 @@ text-align: center;
   
   justify-content: center;
 }
+.conten_men{
+    display: flex;
+}
 .img_m{
     width: 239px;
     height: 105px;
 }
 .item_menc{
     
-    display: inline-block;
+    
     border-radius: 2px;
     box-shadow: var(--box-shadow);
     width: 239px;
