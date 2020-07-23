@@ -1,0 +1,31 @@
+@media (max-width: 1050px){
+    .menciones{
+        display: inline-flex;
+        padding: 3% 25%;       
+    }
+    .conten_men{
+        display: inline;
+    }   
+}
+@media (max-width: 800px){
+    .menciones{
+        padding: 3% 15%;
+    }
+    .products{
+        display: inherit;
+        height: auto;       
+    }
+    .product{
+        margin-top: 10px;
+    }
+}
+@media (max-width:600px){
+    .caracteristicas{
+        display: inherit;
+    }
+    .menciones{
+        display: inherit;
+        padding: 3% 25%;        
+    }
+}
+
