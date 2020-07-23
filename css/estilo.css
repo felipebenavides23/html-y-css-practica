@@ -20,7 +20,7 @@
     padding: 0px;
     margin: 0em;
     font-size: var(--normal);
-    font-family: 'Bebas Neue', cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -97,3 +97,57 @@ text-align: center;
     box-shadow: 4px 4px 10px var(--black-color);
     cursor: pointer;
 }
+
+.caracteristicas{
+    display: flex;
+    padding: 10%;
+   
+
+}
+.item_carac{
+    
+   margin-left: 12%;
+   
+}
+
+.img_carac{
+ 
+    text-align: center;
+    
+}
+
+.img_c{
+    height: 104px;
+}
+.titulo_menc{
+    text-align: center;
+}
+
+.menciones{   
+  display: flex;
+  padding: 2%;
+  
+  justify-content: center;
+}
+.img_m{
+    width: 239px;
+    height: 105px;
+}
+.item_menc{
+    
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: var(--box-shadow);
+    width: 239px;
+    height: 180px;
+    margin: 10px;
+}
+
+ footer{
+     display: flex;
+     height: 60px;
+     background-color: #313337;
+    justify-content: space-between;
+    color: var(--white-color);
+    align-items: center;
+ }
