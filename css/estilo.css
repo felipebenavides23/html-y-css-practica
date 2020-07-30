@@ -153,4 +153,22 @@ text-align: center;
     justify-content: space-between;
     color: var(--white-color);
     align-items: center;
+
+ }
+
+
+ .img_produc{
+     width: 230px;
+ }
+ .text_produc{
+    
+   padding: 10% 2%;
+     
+ }
+
+ .img2{
+     float: top;
+ }
+ .text2{
+     float: bottom;
  }
