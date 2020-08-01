@@ -40,22 +40,24 @@
             </div>
 
             <div class="col-8">
-                <div class="modulo_pago">
-                        <form action="">                       
+                <div class="modulo_pago">                                  
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V94DX8MFU6PTW" method="POST">                       
 
                                      <label for="name">nombre</label>
                                      <br>
-                                    <input type="text" name="name">
+                                    <input type="text" name="name" class="data">
                                         <br>
                                      <label for="email">email</label>
                                      <br>
-                                    <input type="email" name="email">
+                                    <input type="email" name="email" class="data">
                                     <br>
 
-                                    <label for="tele">tele</label>
+                                    <label for="phone">telefono</label>
                                     <br>
-                                    <input type="number" name="tele">
+                                    <input type="number" name="phone" class="data">
                                     <br>
+                                    <br>
+                                    <input class="main_button" type="submit" value="guardar">
                         </form>
                 </div>
             </div>

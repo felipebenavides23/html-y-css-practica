@@ -71,3 +71,20 @@ Representa un texto especialmente importante .
 
 <small>
 Representa un comentario aparte, es decir, textos secundarios como un descargo de responsabilidad o una nota de derechos de autoría, que no son esenciales para la comprensión del documento.
+
+
+documentacion paypal-----------------------------------------------------
+
+https://writingcooperative.com/paypal-donations-vs-paypal-me-option-the-beginners-guide-to-medium-6-a2d35a9c8fe1
+https://www.paypal.com/us/webapps/mpp/logos-buttons
+https://medium.com/@bluepnume/less-is-more-reducing-thousands-of-paypal-buttons-into-a-single-iframe-using-xcomponent-d902d71d8875
+https://uxplanet.org/the-sad-state-of-payment-buttons-4d5cef3b9578
+https://trends.builtwith.com/websitelist/PayPal-Button
+
+
+
+Toda la documentación de la función de autollenado la encuentras en este enlace:---------------------------------------------------------------------------------
+https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/formbasics/#auto-fill-forms-with-html-variables
+
+Y las variables que pueden enviar para el auto llenado del formulario son :-----------------------------------------------------------------------------------------------
+https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx_websitestandard_htmlvariables/#paypal-checkout-page-variables
